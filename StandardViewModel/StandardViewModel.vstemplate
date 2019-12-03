@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>ViewModel.cs</DefaultName>
+    <Name>Standard Class for ViewModels (CodingSeb)</Name>
+    <Description>A class that represent a ViewModel (Hinherits NotifyPropertyChangedBaseClass in CodingSeb.Mvvm)</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Code</ProjectSubType>
+    <SortOrder>50</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <Icon>CSClassFile.ico</Icon>
+    <ShowByDefault>true</ShowByDefault>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">ViewModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
