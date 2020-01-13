@@ -1,10 +1,4 @@
-﻿// *********************************************************************
-// Created on : $time$
-// Created by : CodingSeb
-// Notes      : -- No notes for now --
-// *********************************************************************
-
-using Microsoft.Xaml.Behaviors;
+﻿using Microsoft.Xaml.Behaviors;
 using System;
 using System.Collections;
 using System.Collections.Generic;

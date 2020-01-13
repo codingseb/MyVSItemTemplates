@@ -1,10 +1,4 @@
-﻿// *********************************************************************
-// Created on : $time$
-// Created by : CodingSeb
-// Notes      : -- No notes for now --
-// *********************************************************************
-
-using CodingSeb.Mvvm;
+﻿using CodingSeb.Mvvm;
 using System;
 using System.Collections;
 using System.Collections.Generic;

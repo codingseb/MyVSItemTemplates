@@ -1,10 +1,4 @@
-﻿// *********************************************************************
-// Created on : $time$
-// Created by : CodingSeb
-// Notes      : -- No notes for now --
-// *********************************************************************
-
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
