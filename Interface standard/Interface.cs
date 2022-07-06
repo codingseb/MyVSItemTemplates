@@ -16,9 +16,6 @@ using System.Threading.Tasks;
 
 namespace $rootnamespace$
 {
-    /// <summary>
-    /// -- Describe here to what is this interface used for. (What is it's purpose) --
-    /// </summary>
     public interface $safeitemrootname$
     {
     }

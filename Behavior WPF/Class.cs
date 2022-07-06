@@ -20,9 +20,6 @@ using System.Windows.Input;
 
 namespace $rootnamespace$
 {
-    /// <summary>
-    /// -- Describe here to what is this class used for. (What is it's purpose) --
-    /// </summary>
     public class $safeitemname$ : Behavior<DependencyObject>
     {
         protected override void OnAttached()

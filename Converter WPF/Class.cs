@@ -18,42 +18,21 @@ using System.Windows.Markup;
 
 namespace $rootnamespace$
 {
-    /// <summary>
-    /// -- Describe here to what is this class used for. (What is it's purpose) --
-    /// </summary>
     public class $safeitemname$ : MarkupExtension, IValueConverter
     {
-        /// <summary>
-        /// Do the conversion here
-        /// </summary>
-        /// <param name="value">the input value</param>
-        /// <param name="targetType"></param>
-        /// <param name="parameter"></param>
-        /// <param name="culture"></param>
-        /// <returns>the converted value</returns>
+        /// <inheritdoc/>
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();
         }
 
-        /// <summary>
-        /// Convert back the value (For TwoWays Binding)
-        /// </summary>
-        /// <param name="value"></param>
-        /// <param name="targetType"></param>
-        /// <param name="parameter"></param>
-        /// <param name="culture"></param>
-        /// <returns></returns>
+        /// <inheritdoc/>
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();
         }
 
-        /// <summary>
-        /// This method is provided to use this converter inline in Xaml
-        /// </summary>
-        /// <param name="serviceProvider"></param>
-        /// <returns>this</returns>
+        /// <inheritdoc/>
         public override object ProvideValue(IServiceProvider serviceProvider) => this;
     }
 }

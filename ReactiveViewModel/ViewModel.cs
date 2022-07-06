@@ -1,4 +1,5 @@
-﻿using CodingSeb.Mvvm;
+﻿using ReactiveUI;
+using ReactiveUI.Fody.Helpers;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ using System.Windows.Input;
 
 namespace $rootnamespace$
 {
-    public class $safeitemname$ : NotifyPropertyChangedBaseClass
+    public class $safeitemname$ : ViewModelBase
     {
 
     }
