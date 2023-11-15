@@ -14,10 +14,9 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$
-{
-    public class $safeitemname$
-    {
+namespace $rootnamespace$;
 
-    }
+public class $safeitemname$
+{
+
 }

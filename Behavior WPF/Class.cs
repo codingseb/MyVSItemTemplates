@@ -18,18 +18,17 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace $rootnamespace$
+namespace $rootnamespace$;
+
+public class $safeitemname$ : Behavior<DependencyObject>
 {
-    public class $safeitemname$ : Behavior<DependencyObject>
-    {
-        protected override void OnAttached()
-        {
-            base.OnAttached();
-        }
-        
-        protected override void OnDetaching()
-        {
-            base.OnDetaching();
-        }
-    }
+	protected override void OnAttached()
+	{
+		base.OnAttached();
+	}
+	
+	protected override void OnDetaching()
+	{
+		base.OnDetaching();
+	}
 }

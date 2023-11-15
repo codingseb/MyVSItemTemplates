@@ -17,10 +17,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace $rootnamespace$
+namespace $rootnamespace$;
+
+public class $safeitemname$ : ViewModelBase
 {
-    public class $safeitemname$ : ViewModelBase
-    {
-        
-    }
+	
 }

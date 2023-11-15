@@ -14,9 +14,8 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace $rootnamespace$
+namespace $rootnamespace$;
+
+public interface $safeitemrootname$
 {
-    public interface $safeitemrootname$
-    {
-    }
 }

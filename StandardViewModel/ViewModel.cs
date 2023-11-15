@@ -18,10 +18,9 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Input;
 
-namespace $rootnamespace$
-{
-    public class $safeitemname$ : NotifyPropertyChangedBaseClass
-    {
+namespace $rootnamespace$;
 
-    }
+public class $safeitemname$ : NotifyPropertyChangedBaseClass
+{
+
 }

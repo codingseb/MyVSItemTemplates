@@ -16,23 +16,22 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace $rootnamespace$
+namespace $rootnamespace$;
+
+public class $safeitemname$ : MarkupExtension, IValueConverter
 {
-    public class $safeitemname$ : MarkupExtension, IValueConverter
-    {
-        /// <inheritdoc/>
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            throw new NotImplementedException();
-        }
+	/// <inheritdoc/>
+	public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+	{
+		throw new NotImplementedException();
+	}
 
-        /// <inheritdoc/>
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            throw new NotImplementedException();
-        }
+	/// <inheritdoc/>
+	public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+	{
+		throw new NotImplementedException();
+	}
 
-        /// <inheritdoc/>
-        public override object ProvideValue(IServiceProvider serviceProvider) => this;
-    }
+	/// <inheritdoc/>
+	public override object ProvideValue(IServiceProvider serviceProvider) => this;
 }
