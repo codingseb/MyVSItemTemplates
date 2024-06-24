@@ -1,9 +1,8 @@
-﻿using CodingSeb.Mvvm;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Data;
 using System.Globalization;
 using System.IO;
@@ -20,7 +19,8 @@ using System.Windows.Input;
 
 namespace $rootnamespace$;
 
-public class $safeitemname$ : NotifyPropertyChangedBaseClass
+[ObservableObject]
+public class $safeitemname$
 {
 
 }
