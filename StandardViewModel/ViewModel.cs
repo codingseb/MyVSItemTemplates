@@ -20,7 +20,7 @@ using System.Windows.Input;
 namespace $rootnamespace$;
 
 [ObservableObject]
-public class $safeitemname$
+public partial class $safeitemname$
 {
 
 }
