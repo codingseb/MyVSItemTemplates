@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<VSTEmplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item" >
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item" >
   <TemplateData>
     <DefaultName>UndoRedoStacks.cs</DefaultName>
     <Name>UndoRedo Actions Stack DesignPattern</Name>
@@ -16,4 +16,4 @@
     <ProjectItem SubType="Code" TargetFileName="IUndoRedoAction.cs" ReplaceParameters="true">IUndoRedoAction.cs</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="CustomUndoRedoAction.cs" ReplaceParameters="true">CustomUndoRedoAction.cs</ProjectItem>
   </TemplateContent>
-</VSTEmplate>
+</VSTemplate>
