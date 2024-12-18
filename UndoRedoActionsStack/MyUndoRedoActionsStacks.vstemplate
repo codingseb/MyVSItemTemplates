@@ -6,7 +6,7 @@
     <Description>A set of *.cs files that implement the design pattern of undo redo actions stacks</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Code</ProjectSubType>
-    <SortOrder>5</SortOrder>
+    <SortOrder>100</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <Icon>CSClassFile.ico</Icon>
 	<ShowByDefault>true</ShowByDefault>
