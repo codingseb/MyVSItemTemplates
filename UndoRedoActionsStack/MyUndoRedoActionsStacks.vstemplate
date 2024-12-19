@@ -12,7 +12,7 @@
 	<ShowByDefault>true</ShowByDefault>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">UndoRedoStacks.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="UndoRedoStacks.cs" ReplaceParameters="true">UndoRedoStacks.cs</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="IUndoRedoAction.cs" ReplaceParameters="true">IUndoRedoAction.cs</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="CustomUndoRedoAction.cs" ReplaceParameters="true">CustomUndoRedoAction.cs</ProjectItem>
   </TemplateContent>
