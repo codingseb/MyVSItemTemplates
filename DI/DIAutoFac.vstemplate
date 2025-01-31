@@ -2,8 +2,8 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item" >
   <TemplateData>
     <DefaultName>DI.cs</DefaultName>
-    <Name>DI class to register types with Autofac DesignPattern</Name>
-    <Description>A set of *.cs files that implement the design pattern of undo redo actions stacks</Description>
+    <Name>DI (Dependency Injection) class to register types with Autofac DesignPattern</Name>
+    <Description>A set of *.cs files that implement my DI stack and pattern with autofac</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Code</ProjectSubType>
     <SortOrder>100</SortOrder>

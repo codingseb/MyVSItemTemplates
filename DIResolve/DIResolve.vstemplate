@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item" >
+  <TemplateData>
+    <DefaultName>DIResolve.cs</DefaultName>
+    <Name>DIResolve MarkupExtension</Name>
+    <Description>MarkupExtension to resolve à type with DI from xaml</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Code</ProjectSubType>
+    <SortOrder>100</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <Icon>CSClassFile.ico</Icon>
+	<ShowByDefault>true</ShowByDefault>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">DIResolve.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
